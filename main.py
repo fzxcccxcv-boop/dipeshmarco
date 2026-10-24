@@ -53,7 +53,7 @@ logger = logging.getLogger(__name__)
 START_TIME = time.time()
 
 # ─── BOT & WEB CONFIGURATION ──────────────────────────────────────────────────
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8629618999:AAG4CtSRQDZzr_bqPc5cDSiRn54JzwxoOGM")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8874296819:AAH249JwMBWsIMiIFnNP7XcclbcGLmJpD60")
 OWNER_ID = int(os.environ.get("OWNER_ID", 8115054010))
 TELEGRAM_API_ID = int(os.environ.get("TELEGRAM_API_ID", 38843772))
 TELEGRAM_API_HASH = os.environ.get("TELEGRAM_API_HASH", "875fbb273801c8025d05e98173fca536")
