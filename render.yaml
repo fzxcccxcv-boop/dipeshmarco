@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: dipeshxmarco-hoster
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: PORT
+        value: 8080
+      - key: WEB_ADMIN_KEY
+        value: dipeshxmarco
